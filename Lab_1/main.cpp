@@ -26,7 +26,6 @@ int main() {
 		std::cout << trapezoidalRule.calculate(cosine, a, b) << std::endl;
 		std::cout << "Simpson's Rule   == ";
 		std::cout << simpsonRule.calculate(cosine, a, b) << std::endl;
-	
 
 		std::cout << std::endl;
 		b += 0.1;
